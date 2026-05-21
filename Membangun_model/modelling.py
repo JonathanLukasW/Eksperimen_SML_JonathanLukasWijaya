@@ -15,7 +15,7 @@ y_train = train_data["winningSide"]
 X_test  = test_data.drop(columns=["winningSide"])
 y_test  = test_data["winningSide"]
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+#mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 mlflow.autolog()
 
